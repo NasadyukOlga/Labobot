@@ -6,7 +6,7 @@ from database.main_db.database import Base
 
 
 class Student(Base):
-    __tablename__ = 'student'
+    __tablename__ = 'students'
 
     id = Column(Integer, primary_key=True)
     full_name = Column(String, nullable=False)
