@@ -9,12 +9,12 @@ from model.pydantic.home_work import DisciplineHomeWorks, HomeWork, HomeTask
 def create_homeworks(discipline: DisciplineWorksConfig) -> DisciplineHomeWorks:
     home_works_list: list[HomeWork] = []
     for it in discipline.works:
-        home_tasks_list = [HomeWork(number=i)
+        home_tasks_list = [HomeTask(number=i)
                            for i in range(1, it.amount_tasks + 1)]
         home_work = HomeWork(
             number=it.number,
             deadline=it.deadline,
-            tasks= home_tasks_list
+            tasks=home_tasks_list
         )
         home_works_list.append(home_work)
     return DisciplineHomeWorks(home_works=home_works_list)
