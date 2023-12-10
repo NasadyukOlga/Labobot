@@ -1,0 +1,63 @@
+{
+  "disciplines": [
+    {
+      "full_name": "Машинное обучение",
+      "short_name": "МО",
+      "path_to_test": "_disciplines\\tmp\\test",
+      "path_to_answer": "_disciplines\\tmp\\answer",
+      "language": "python",
+      "works": [
+        {
+          "number": 1,
+          "amount_tasks": 11,
+          "deadline": "2024-02-01"
+        },
+        {
+          "number": 2,
+          "amount_tasks": 20,
+          "deadline": "2024-02-10"
+        },
+        {
+          "number": 3,
+          "amount_tasks": 19,
+          "deadline": "2024-02-20"
+        },
+        {
+          "number": 4,
+          "amount_tasks": 18,
+          "deadline": "2024-02-28"
+        },
+        {
+          "number": 5,
+          "amount_tasks": 16,
+          "deadline": "2024-03-10"
+        },
+        {
+          "number": 6,
+          "amount_tasks": 15,
+          "deadline": "2024-03-20"
+        },
+        {
+          "number": 7,
+          "amount_tasks": 20,
+          "deadline": "2024-03-29"
+        },
+        {
+          "number": 8,
+          "amount_tasks": 18,
+          "deadline": "2024-04-10"
+        },
+        {
+          "number": 9,
+          "amount_tasks": 22,
+          "deadline": "2024-04-20"
+        },
+        {
+          "number": 10,
+          "amount_tasks": 10,
+          "deadline": "2024-04-29"
+        }
+      ]
+    }
+  ]
+}
