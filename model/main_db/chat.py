@@ -3,7 +3,7 @@ from sqlalchemy import Column, Integer, Boolean
 from database.main_db.database import Base
 
 
-class Admin(Base):
+class Chat(Base):
     __tablename__ = 'chat'
 
     chat_id = Column(Integer, primary_key=True)
