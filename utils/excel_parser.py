@@ -55,7 +55,7 @@ class ExcelDataParser:
             case ParserType.TEACHER:
                 index = wb.sheetnames.index('teachers')
                 wb.active = index
-                self.__students_parser(wb.active)
+                self.__teachers_parser(wb.active)
             case _:
                 raise ExcelDataParserError('ParserType not found')
 
