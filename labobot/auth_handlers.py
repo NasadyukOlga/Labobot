@@ -1,6 +1,6 @@
 from telebot.apihelper import ApiTelegramException
 from telebot.asyncio_handler_backends import State, StatesGroup
-from telebot.types import Message
+from telebot.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 from labobot.configuration import bot
 
